@@ -1,0 +1,156 @@
+body {
+	color: #000;
+}
+
+a:link {
+	color: #3b2700;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #3b2700;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.logo img {
+	background:url(../../images/multicolors/logo_white.png) center no-repeat;
+}
+
+.menu {
+	background: #5a3f19 url(../../images/multicolors/bg3.png);
+	background: -webkit-gradient(linear, left top, left bottom, from(#5f431b), to(#533915)) url(../../images/multicolors/bg3.png); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #5f431b, #533915) url(../../images/multicolors/bg3.png); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #5f431b, #533915) url(../../images/multicolors/bg3.png); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5f431b, endColorstr=#533915) url(../../images/multicolors/bg3.png);
+	color: #ffffff;
+}
+
+.menu li:hover {
+	background: #19120b;
+	background: -webkit-gradient(linear, left top, left bottom, from(#251405), to(#19120b)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #251405, #19120b); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #251405, #19120b); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#251405, endColorstr=#19120b);
+	color:#ffffff;
+}
+#panel, .logo {
+	background: #19120b;
+	background: -webkit-gradient(linear, left top, left bottom, from(#251405), to(#19120b)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #251405, #19120b); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #251405, #19120b); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#251405, endColorstr=#19120b);
+	border: 1px solid #815a38;
+	color:#ffffff;
+}
+
+#panel a:link, #panel a:hover, #panel a:visited, #panel a:active {
+	color: #ffffff;
+}
+
+.forumbitcat1 {
+	background: #39260c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#39260c), to(#302008)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #39260c, #302008); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #39260c, #302008); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#39260c, endColorstr=#302008);
+	color: #ffffff;
+}
+
+.forumbit_on, .forumbit_minion {
+	background: #5a3f19;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5f431b), to(#533915)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #5f431b, #533915); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #5f431b, #533915); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5f431b, endColorstr=#533915);
+}
+
+.forumbit_off, .forumbit_minioff {
+	background: #595959;
+	background: -webkit-gradient(linear, left top, left bottom, from(#595959), to(#494949)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #595959, #494949); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #595959, #494949); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#595959, endColorstr=#494949);
+}
+
+.forumbit_offlock, .forumbit_miniofflock {
+	background: #000000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1b1b1b), to(#000000)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #1b1b1b, #000000); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #1b1b1b, #000000); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1b1b1b, endColorstr=#000000);
+}
+
+.thead {
+	background: #5a3f19 url(../../images/multicolors/bg3.png);
+	background: -webkit-gradient(linear, left top, left bottom, from(#5f431b), to(#533915)) url(../../images/multicolors/bg3.png); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #5f431b, #533915) url(../../images/multicolors/bg3.png); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #5f431b, #533915) url(../../images/multicolors/bg3.png); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5f431b, endColorstr=#533915) url(../../images/multicolors/bg3.png);
+	color: #ffffff;
+}
+
+.tcat {
+	background: #19120b;
+	background: -webkit-gradient(linear, left top, left bottom, from(#251405), to(#19120b)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #251405, #19120b); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #251405, #19120b); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#251405, endColorstr=#19120b);
+	color:#ffffff;
+}
+
+.tfoot {
+	background: #5a3f19;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5f431b), to(#533915)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #5f431b, #533915); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #5f431b, #533915); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5f431b, endColorstr=#533915);
+	color: #ffffff;
+}
+
+.thead a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.thead a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.thead a:hover, .thead a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.tfoot a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tfoot a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tfoot a:hover, .tfoot a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.tcat a:link {
+	color: #ffffff;
+}
+
+.tcat a:visited {
+	color: #ffffff;
+}
+
+.tcat a:hover, .tcat a:active {
+	color: #ffffff;
+}
+
